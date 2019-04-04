@@ -1,0 +1,32 @@
+{
+  "name": "rest-shop",
+  "version": "1.0.0",
+  "description": "A Node.js RESTful",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node",
+    "restful",
+    "api"
+  ],
+  "author": "sem",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^3.0.5",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "git": "^0.1.5",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.4.21",
+    "morgan": "^1.9.1",
+    "multer": "^1.4.1",
+    "passport": "^0.4.0",
+    "passport-local": "^1.0.0",
+    "password-validator": "^4.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  }
+}
